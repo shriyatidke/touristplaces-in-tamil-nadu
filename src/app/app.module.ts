@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { MeenakshiTempleComponent } from './meenakshi-temple/meenakshi-temple.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     SliderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    MeenakshiTempleComponent
   ],
   imports: [
     BrowserModule,
