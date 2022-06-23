@@ -4,13 +4,14 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
 import { MeenakshiTempleComponent } from './meenakshi-temple/meenakshi-temple.component';
-
+import { BrihadeeswaraTempleComponent } from './brihadeeswara-temple/brihadeeswara-temple.component';
 
 const routes: Routes = [
   {path : "", component :  HomeComponent},
   {path : "about", component : AboutUsComponent},
   {path : "contact", component : ContactUsComponent},
-  {path : "meenakshi-temple", component :  MeenakshiTempleComponent}
+  {path : "meenakshi-temple", component :  MeenakshiTempleComponent},
+  {path : "brihadeeswara-temple", component :  BrihadeeswaraTempleComponent}
 ];
 
 @NgModule({

@@ -10,6 +10,7 @@ import { SliderComponent } from './slider/slider.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MeenakshiTempleComponent } from './meenakshi-temple/meenakshi-temple.component';
+import { BrihadeeswaraTempleComponent } from './brihadeeswara-temple/brihadeeswara-temple.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MeenakshiTempleComponent } from './meenakshi-temple/meenakshi-temple.co
     SliderComponent,
     HomeComponent,
     FooterComponent,
-    MeenakshiTempleComponent
+    MeenakshiTempleComponent,
+    BrihadeeswaraTempleComponent
   ],
   imports: [
     BrowserModule,
